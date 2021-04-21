@@ -122,7 +122,6 @@ def config_cache(options, system):
 
 #            system.tovictimbus.cpu_side_ports = system.l2.mem_side  ##
 #           # connect victim bus to l2 bus to bypass victim???
-#            system.tovictimbus.mem_side_ports = system.tol2bus.cpu_side_ports
 #            system.tol2bus.cpu_side_ports = system.tovictimbus.mem_side_ports
          
             if options.l2_hwp_type:

@@ -74,8 +74,8 @@ class VictimCache(Cache):
     mshrs = 20
     tgts_per_mshr = 12
     write_buffers = 8
-#    tags = FALRU()
-    replacement_policy = FALRU()
+    tags = FALRU()
+    # replacement_policy = FALRU()
 
     # Writeback clean lines as well
     writeback_clean = True
